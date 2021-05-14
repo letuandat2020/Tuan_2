@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bài thưc hành js</title>
+</head>
+<body>
+<div id="container">
+    <input id="kq" text=" "><br>
+    <input type="button" value="+" onclick="set_num">
+    <input type="button" value="-" onclick="set_num">
+    <input type="button" value="*" onclick="set_num">
+    <input type="button" value="/" onclick="set_num"><br>
+    <input type="button" value="1" onclick="set_num">
+    <input type="button" value="2" onclick="set_num">
+    <input type="button" value="3" onclick="set_num"><br>
+    <input type="button" value="4" onclick="set_num">
+    <input type="button" value="5" onclick="set_num">
+    <input type="button" value="6" onclick="set_num"><br>
+    <input type="button" value="7" onclick="set_num">
+    <input type="button" value="8" onclick="set_num">
+    <input type="button" value="9" onclick="set_num">
+    <input type="reset" value="reset" onclick="set_num">
+
+</div>
+<script>
+    let x ="";
+    function a(id){
+        return document.getElementById(id);
+    }
+    function set_num(num){
+        x+=num;
+        a('kq').value=x;
+    }
+    function xoa() {
+       x='';
+       a('kq').valua=x;
+
+    }
+</script>
+</body>
+</html>

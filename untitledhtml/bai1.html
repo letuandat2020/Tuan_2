@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bai thực hành</title>
+    <style>
+        td{
+            width: 100px;
+            height: 50px;
+        }
+        td:hover{
+            border: 2px solid green;
+            background-color: aqua!important;
+        }
+        .first{
+            /*background-color: yellow;*/
+        }
+        tr:nth-child(even) td:nth-child(odd),tr:nth-child(odd) td:nth-child(even) {
+            background-color: red;
+        }
+        /*tr:nth-child(odd) td:nth-child(even){*/
+        /*    background-color: red;*/
+        /*}*/
+        .demo{
+            color: red;
+        }
+        input{
+            border: none;
+        }
+        input:hover{
+            border: 2px solid red;
+            width: 400px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Form khảo sát CodeGym</legend>
+        <label for="full-name">Họ và tên: </label>
+        <input type="text" name="q" id="full-name" placeholder="Nguyễn Văn A" value="">
+        <br>
+        <label for="gender">Giới tính</label>
+        <input type="radio" name="gender" id="gender"> Nam
+        <input type="radio" name="gender" id=""> Nữ
+        <br>
+        <label>Sở Thích</label>
+        <input type="checkbox" class="hobby" name="hobby"> Game
+        <input type="checkbox" class="hobby" name="hobby"> Music
+        <input type="checkbox" class="hobby" name="hobby"> Sport
+        <br>
+        <label for="phone">Số điện thoại</label>
+        <input type="number" id="phone" placeholder="0987654321">
+        <br>
+        <label for="pass">Mật khẩu</label>
+        <input type="password" id="pass" placeholder="********">
+        <br>
+        <label for="datetime">Mật khẩu</label>
+        <input type="date" id="datetime" placeholder="">
+        <br>
+        <label for="mail">Email</label>
+        <input type="hidden" id="mail" placeholder="abc@gmail.com">
+        ​
+        <!--        <button type="reset">Gửi</button>-->
+        <input type="reset" value="Reset">
+    </fieldset>
+    <!--  <input type="submit" value="Gửi">-->
+    ​
+    <table border="1px" cellspacing="0">
+        <tr>
+            <td class="first"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="first"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="first"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="first"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="first"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <p id="item" class="demo"></p>
+    ​
+    <p>Bên dưới<sub class="demo">hello</sub></p>
+    <p>Bên trên<sup class="demo">hello</sup></p>
+</form>
+</body>
+</html>
+
+
+
+</body>
+</html>
