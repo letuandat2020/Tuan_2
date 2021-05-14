@@ -2,7 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LuyenTap_If_else" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/baithuchanhfontend/buoi1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bài test" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tongquanjs" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tongquanjs/bai5" vcs="Git" />
   </component>
